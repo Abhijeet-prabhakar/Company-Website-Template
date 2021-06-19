@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navsection .menubutton{
+    float: right;
+    list-style: none;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+}
+.navsection{
+    /* text-align: center; */
+    padding-top: 1rem;
+}
+.navsection img{
+    border: none;
+}
+.mainsection{
+    text-align: center;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Monoton', cursive;
+    color: hsl(0, 0%, 79%);
+    background-color: transparent;
+    pointer-events: all;
+}
+.mainsection img{
+    background-color: transparent;
+}
+header{
+    background-image: url(Assets\Images\homepagebackground.jpeg);
+}
+.mainname{
+    position: absolute;
+    z-index: 0;
+    transform: translateY(3rem);
+    font-size: 1.5rem;
+    font-family: 'Amatic SC', cursive;
+    color: aliceblue;
+}
+.home{
+    background-image: url(Assets/Images/homepagebackground.jpeg);
+}
+.blank{
+    background-color: black;
+}
+/* font-family: 'Advent Pro', sans-serif; */
+.about{
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    background-image: url(Assets\Images\aboutpageonebackgroung.jpeg);
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding: 5rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutcontent{
+    font-size: 1.3rem;
+    list-style: none;
+    pointer-events: all;
+}
+.about h1{
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-7rem);
+}
+.thanks{
+    background-color: black;
+    font-family: 'Advent Pro', sans-serif; 
+    color: aliceblue;
+}
+.thanks a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.1rem;
+}
+.mainsection h1:hover{
+    transform: rotateZ(25deg);
+    transition: all ease 0.3s;
+}
+.mainsection .mainname:hover{
+    transform: rotateZ(-25deg);
+    transition: all ease 0.3s;
+}
+.menubutton:hover{
+    transform: translateY(1rem);
+    transition: all ease 0.1ms;
+}
+.navsection img:hover{
+    height: 100px;
+    width: 100px;
+    transition: 1s;
+}
+.about strong:hover{
+    text-shadow: 10px 10px 10px 10px rgb(33, 33, 33);
+}
